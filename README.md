@@ -3,7 +3,7 @@
 ## Getting started
 
 ```shell script
-$ npm install @up-inside/react-native-admost --save
+$ npm install react-native-admost-main --save
 react-native-admost-main
 ```
 
