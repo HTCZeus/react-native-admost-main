@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.summary      = package["description"]
   s.license      = package['license']
   s.authors      = package['author']
-  s.homepage     = package['homepage']
+  s.homepage     = package['https://github.com/HTCZeus/react-native-admost-main']
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/HTCZeus/react-native-admost-main", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/HTCZeus/react-native-admost-main.git", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.resources    = ['CustomXibs/*']
 
