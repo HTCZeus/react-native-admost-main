@@ -1,8 +1,15 @@
 {
   "name": "react-native-admost-main",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "admost for rn",
-  "main": "index.js",
+  "main": "src/index.js",
+  "files": [
+    "react-native-admost/README.md",
+    "android",
+    "src",
+    "ios",
+    "react-native-admost-main.podspec"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
