@@ -11,40 +11,41 @@ import com.facebook.react.uimanager.annotations.ReactProp;
 import javax.annotation.Nonnull;
 
 public class AdMostAdViewManager extends SimpleViewManager<AdMostAdView> {
-  private static final String REACT_CLASS = "RCTAdMostAdView";
+    private static final String REACT_CLASS = "RCTAdMostAdView";
 
-  @NonNull
-  @Override
-  public String getName() {
-    return REACT_CLASS;
-  }
-
-  @NonNull
-  @Override
-  protected AdMostAdView createViewInstance(@NonNull ThemedReactContext reactContext) {
-    return AdMostAdView.newView(reactContext);
-  }
-
-  @Override
-  public void receiveCommand(@Nonnull AdMostAdView view, String commandId,
-                             @Nullable ReadableArray args) {
-    switch (commandId) {
-      case "loadAd":
-        view.loadAd();
-        break;
-      case "destroyAd":
-        view.destroyAd();
-        break;
+    @NonNull
+    @Override
+    public String getName() {
+        return REACT_CLASS;
     }
-  }
 
-  @ReactProp(name = "zoneId")
-  public void setZoneId(AdMostAdView view, String zoneId) {
-    view.setZoneId(zoneId);
-  }
+    @NonNull
+    @Override
+    protected AdMostAdView createViewInstance(@NonNull ThemedReactContext reactContext) {
+        return AdMostAdView.newView(reactContext);
+    }
 
-  @ReactProp(name = "layoutName")
-  public void setLayoutName(AdMostAdView view, String layoutName) {
-    view.setLayoutName(layoutName);
-  }
+    @Override
+    public void receiveCommand(@Nonnull AdMostAdView view, String commandId,
+                               @Nullable ReadableArray args) {
+        switch (commandId) {
+            case "loadAd":
+                view.loadAd();
+                break;
+            case "destroyAd":
+                view.destroyAd();
+                break;
+        }
+    }
+
+    @ReactProp(name = "zoneId")
+    public void setZoneId(AdMostAdView view, String zoneId) {
+        view.setZoneId(zoneId);
+    }
+
+    @ReactProp(name = "layoutName")
+    public void setLayoutName(AdMostAdView view, String layoutName) {
+        view.setLayoutName(layoutName);
+    }
 }
+

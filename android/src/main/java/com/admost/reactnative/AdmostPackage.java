@@ -1,4 +1,4 @@
-package com.admostrn;
+package com.admost.reactnative;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;

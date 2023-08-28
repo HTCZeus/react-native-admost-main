@@ -1,4 +1,4 @@
-package com.admostrn;
+package com.admost.reactnative;
 import android.util.Log;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

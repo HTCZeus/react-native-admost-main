@@ -1,6 +1,6 @@
 {
   "name": "react-native-admost-main",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "admost for rn",
   "main": "src/index.js",
   "files": [
