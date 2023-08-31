@@ -23,6 +23,7 @@ public class AdmostModule extends ReactContextBaseJavaModule {
     private String appID;
     private Boolean userContents;
     private Boolean subjectToGDPR;
+    private Boolean subjectToCCPA;
     private Boolean userChild;
     private String appUserID;
     private AdMostConfiguration.Builder admostConfiguration;
@@ -81,6 +82,11 @@ public class AdmostModule extends ReactContextBaseJavaModule {
     public void setSubjectToGDPR(Boolean subjectToGDPR) {
         this.subjectToGDPR = subjectToGDPR;
         this.admostConfiguration.setSubjectToGDPR(subjectToGDPR);
+    }
+    @ReactMethod
+    public void setSubjectToCCPA(Boolean subjectToCCPA) {
+        this.subjectToCCPA = subjectToCCPA;
+        this.admostConfiguration.setSubjectToGDPR(subjectToCCPA);
     }
 
     @ReactMethod

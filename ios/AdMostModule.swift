@@ -37,6 +37,11 @@ class AdmostModule: RCTEventEmitter {
         self.subjectToGDPR = subjectToGDPR
         AMRSDK.subject(toGDPR: subjectToGDPR)
     }
+    @objc
+    func setSubjectToCCPA(_ subjectToCCPA: Bool) {
+        self.subjectToCCPA = subjectToCCPA
+        AMRSDK.subject(toCCPA: subjectToCCPA)
+    }
     
     @objc
     func setUserChild(_ userChild: Bool) {

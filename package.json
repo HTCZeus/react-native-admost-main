@@ -1,7 +1,7 @@
 {
   "name": "react-native-admost-main",
-  "version": "1.1.9",
-  "description": "admost for rn",
+  "version": "1.2.0",
+  "description": "Admost for react-native",
   "main": "src/index.js",
   "files": [
     "react-native-admost/README.md",
@@ -14,8 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "rn",
-    "admost"
+    "react-native",
+    "admost",
+    "admost-mediation"
   ],
   "author": "sinan",
   "license": "ISC"

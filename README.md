@@ -3,7 +3,7 @@
 ## Getting started
 
 ```shell script
-$ npm install react-native-admost-main --save
+$ npm install react-native-admost-main
 ```
 
 ### Android

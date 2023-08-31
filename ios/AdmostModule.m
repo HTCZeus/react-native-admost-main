@@ -6,6 +6,7 @@
 RCT_EXTERN_METHOD(setAppID: (NSString *)appID)
 RCT_EXTERN_METHOD(setUserConsents: (BOOL)userConsents)
 RCT_EXTERN_METHOD(setSubjectToGDPR: (BOOL)subjectToGDPR)
+RCT_EXTERN_METHOD(setSubjectToCCPA: (BOOL)subjectToCCPA)
 RCT_EXTERN_METHOD(setUserChild: (BOOL)userChild)
 RCT_EXTERN_METHOD(setUserId: (NSString *)userId)
 RCT_EXTERN_METHOD(start: (RCTPromiseResolveBlock)resolve reject: (RCTPromiseRejectBlock)reject)
