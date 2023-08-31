@@ -18,7 +18,7 @@ class AdmostModule: RCTEventEmitter {
     var appID: String? 
     var userConsents: Bool?
     var subjectToGDPR: Bool?
-    var setSubjectToCCPA: Bool?
+    var subjectToCCPA: Bool?
     var userChild: Bool?
     var setUserId: Bool?
   
