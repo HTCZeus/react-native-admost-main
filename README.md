@@ -6,32 +6,8 @@
 $ npm install react-native-admost-main
 ```
 
-### Android
-- You should follow the "Edit Files" section on [AdMost](https://admost.github.io/amrandroid/#edit-files)
-- These dependencies already exist in gradle
-```
-  implementation 'com.admost.sdk:amr:2.8.1'
-  implementation 'com.google.android.gms:play-services-base:17.1.0'
-```
-
-#### Update Project `build.grandle`
-```
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://mvn-repo.admost.com/artifactory/amr' } // <- ADD THIS
-    }
-}
-```
-
-
-### IOS
-- You should follow the "Create your podfile and install" section on [AdMost](https://admost.github.io/amrios/#create-your-podfile-and-install)
-- These dependencies already exist in pod
-```
-  s.dependency "AMRSDK", "~> 1.5"
-```
+### Android/IOS Setup Notes
+- You should follow setup notes [AdMost](https://admost.github.io/amrreact/)
 
 ## Usage
 
