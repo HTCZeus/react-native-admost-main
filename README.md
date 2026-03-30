@@ -304,3 +304,10 @@ const App = () => {
 | DID_SHOW             | network                                           |
 | DID_CLICK            | network                                           |
 | DID_COMPLETE         | network                                           |
+
+
+## Acknowledgments
+
+Big thanks to the developers and contributors of:
+
+- **[react-native-admost](https://github.com/charmy/react-native-admost)**: React Native Admost SDK
